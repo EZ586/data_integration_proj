@@ -5,12 +5,14 @@
 Metadata:
 * Title: CORE-2019-501C3-CHARITIES-PC-HRMN
 * Creators: Jesse Lecy, Thiyaghessan Poongundranar
-* Columns used: 
+* Columns used: EIN2, F9_00_ORG_NAME_L1, F9_00_ORG_ADDR_CITY, F9_00_ORG_ADDR_STATE, F9_08_REV_PROG_DESC
 
 Sample data items:
-
-{'F9_00_ORG_ADDR_CITY': 'BANGOR',
-'SA_01_PCSTAT_ORG_AMT_SUPPORT_TOT': 101855}
+| EIN2  | F9_00_ORG_NAME_L1 | F9_00_ORG_ADDR_CITY | F9_00_ORG_ADDR_STATE | F9_08_REV_PROG_DESC |
+| ------------- | ------------- |------------- |------------- |------------- |
+| EIN-01-0133442  | OXFORD COUNTY AGRICULTURAL SOCIETY  | NORWAY | ME | 611710 |
+| EIN-01-0145133 | PROUTS NECK ASSOCIATION | SCARBOROUGH |	ME |	900099 |
+| EIN-01-0180531 | WEST OXFORD AGRICULTURAL SOCIETY	| FRYEBURG |	ME |	110000 |
 
 ### EPA Air Quality Index
 Metadata:
