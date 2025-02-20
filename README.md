@@ -5,9 +5,17 @@
 Metadata:
 * Title: CORE-2019-501C3-CHARITIES-PC-HRMN
 * Creators: Jesse Lecy, Thiyaghessan Poongundranar
-<br />
-Sample data itemns:
+* Columns used: 
+
+Sample data items:
+
+{'F9_00_ORG_ADDR_CITY': 'BANGOR',
+'SA_01_PCSTAT_ORG_AMT_SUPPORT_TOT': 101855}
+
 ### EPA Air pollution
 Metadata:
-<br />
+* Title: CORE-2019-501C3-CHARITIES-PC-HRMN
+* Creators: Jesse Lecy, Thiyaghessan Poongundranar
+* Columns used: 
+
 Sample data items:
