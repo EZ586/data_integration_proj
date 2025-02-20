@@ -1,5 +1,3 @@
-# data_integration_proj
-
 ## Datasets
 ### 501C3 Charities PC (2019) from NCCS Core Series
 Metadata:
@@ -18,8 +16,14 @@ Sample data items:
 Metadata:
 * Title: Daily AQI by CBSA 2019
 * Creators: Environmental Protection Agency
-* Columns used: CBSA, Category
+* Columns used: CBSA, CBSA Code, Date, AQI, Category, Defining Parameter, Defining Site, Number of Sites Reporting
 
 Sample data items:
-"CBSA","CBSA Code","Date","AQI","Category","Defining Parameter","Defining Site","Number of Sites Reporting"
-"Aberdeen, SD","10100","2019-01-03",4,"Good","PM10","46-013-0003",1
+| CBSA | CBSA Code | Date | AQI | Category | Defining Parameter | Defining Site | Number of Sites Reporting|
+| ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |------------- |
+| Aberdeen, SD | 10100 | 2019-01-03 | 4 | Good | PM10 | 46-013-0003 | 1 |
+| Kalamazoo-Portage, MI | 28020 |	9/18/2019 |	39 |	Good |	Ozone |	26-077-0008 |	1 |
+| Kalispell, MT |	28060 |	2/2/2019 |	39 |	Good |	PM2.5 |	30-029-0049 |	4 |
+
+
+
