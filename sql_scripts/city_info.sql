@@ -1,0 +1,6 @@
+CREATE TABLE matched_city_info (
+	`F9_00_ORG_ADDR_CITY` VARCHAR(22) NOT NULL, 
+	`F9_00_ORG_ADDR_STATE` VARCHAR(2) NOT NULL, 
+	`Total_Rev_Prog_Desc` DECIMAL(38, 0) NOT NULL, 
+	`Percent_Unhealthy_Days` DECIMAL(38, 16) NOT NULL
+);
