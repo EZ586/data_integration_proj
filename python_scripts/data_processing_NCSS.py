@@ -82,7 +82,7 @@ def matched_cities():
     print(matching_cities_states.head())
     return matching_cities_states[['F9_00_ORG_ADDR_CITY', 'F9_00_ORG_ADDR_STATE', 'Percent_Unhealthy_Days']]
 
-
+# THIS METHOD PRODUCES FINAL CSV FILE PROVIDED
 def city_revenue_for_matched_cities():
     # Get the city revenue summary
     city_revenue_data = city_revenue()
