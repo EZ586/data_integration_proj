@@ -1,11 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def plot_scatter(csv_file):
+def plot_scatter():
     # Load the CSV file
-    df = pd.read_csv(csv_file, delimiter=',')  # Assuming tab-separated values
-    print(df.columns.tolist())
-
     # Extract relevant columns
     x = df['Total_Rev_Prog_Desc']
     y = df['Percent_Unhealthy_Days']
@@ -22,5 +19,25 @@ def plot_scatter(csv_file):
     # Show the plot
     plt.show()
 
+def plot_histogram():
+    # Load the CSV file
+    # Extract relevant columns
+    x = df['Total_Rev_Prog_Desc']
+    
+    # Create histogram
+    plt.figure(figsize=(10, 6))
+    plt.hist(x, bins=20, color='skyblue', edgecolor='black', alpha=0.7)
+    plt.xlabel('Total Revenue')
+    plt.ylabel('Frequency')
+    plt.title('Histogram of Total Revenue')
+    plt.grid(axis='y', alpha=0.75)
+    
+    # Show the plot
+    plt.show()
 
-plot_scatter('../processed_datasets/matched_city_info.csv')
+
+
+df = pd.read_csv('../processed_datasets/matched_city_info.csv', delimiter=',')
+
+#plot_scatter()
+plot_histogram()
