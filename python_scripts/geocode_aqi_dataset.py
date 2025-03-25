@@ -68,5 +68,23 @@ def process_air_quality_data(input_csv, output_csv):
     final_df.to_csv(output_csv, index=False)
     print(f"Processed data saved to {output_csv}")
 
+def match_geodata_with_revenue(geocoded_csv, revenue_csv):
+    """Matches geocoded air quality data with revenue data based on city names."""
+    geocoded_df = pd.read_csv(geocoded_csv)
+    revenue_df = pd.read_csv(revenue_csv)
+
+    # remove Percent_unhealthy_days column from revenue_df
+    revenue_df = revenue_df.drop(columns=['Percent_Unhealthy_Days'])
+    # Merge the two datasets based on city names
+    # and Percent_unhealthy_days column has duplicate between both datasets
+    merged_df = pd.merge(geocoded_df, revenue_df, on="CITY", how="left")
+
+    # Save the merged dataset
+    merged_df.to_csv("total_aqi_nccs_data.csv", index=False)
+    print("Merged data saved to total_aqi_nccs_data.csv")
+
 # Example usage
-process_air_quality_data("../raw_datasets/daily_aqi_by_cbsa_2019.csv", "geocoded_aqi_dataset.csv")
+#process_air_quality_data("../raw_datasets/daily_aqi_by_cbsa_2019.csv", "geocoded_aqi_dataset.csv")
+
+# Match geocoded air quality data with revenue data
+match_geodata_with_revenue("../processed_datasets/geocoded_aqi_dataset.csv", "../processed_datasets/matched_city_info.csv")

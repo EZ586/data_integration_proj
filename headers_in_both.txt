@@ -1,0 +1,651 @@
+DUP_RTRN_X: Indicates duplicate return
+F9_00_EXEMPT_STAT_501C3_X: Indicates a 501(c)(3) organization
+F9_00_ORG_EIN: Orgainization Employer Identification Number (EIN)
+F9_00_TAX_PERIOD_BEGIN_DATE: Tax period begin date
+F9_00_TAX_PERIOD_END_DATE: Tax period end date
+F9_00_TAX_YEAR: Tax year
+F9_03_PROG_CODE: Activity2 - Activity code
+F9_05_170C_NUM_FORM_8282_FILED_X: Number of 8282s filed
+F9_05_4947_TAX_EXEMPT_INT_AMT: Indicates section 4947(a)(1) nonexempt charitable trusts filing Form 990 in lieu of Form 1041
+F9_05_501C12_GRO_INCOME_MEMB: Gross income from members
+F9_05_501C12_GRO_INCOME_OTH: Gross income, other sources
+F9_05_501C29_RESERVE_MAINT_AMT: Reserves maintained amount
+F9_05_501C29_STATE_RESERVE_AMT: State required reserves amount
+F9_05_501C7_GRO_RCPT_PUB_USE: 501(c)(7) orgs: Gross receipts, included on line 9, for public use of club facilities
+F9_05_501C7_INITIATION_FEES: 501(c)(7) orgs: Initiation fees and capital contributions included on line 9
+F9_05_NUM_EMPL: Number of employees
+F9_05_NUM_FORM_1096_BOX_3: Number forms transmitted with 1096
+F9_05_NUM_FORM_W2G: Number W-2Gs included in 1a
+F9_07_COMP_DTK_COMP_ORG: Reportable compensation from organization (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_ORG_TOT: Total, column D (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_OTH: Other compensation (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_OTH_TOT: Total, column F (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_RLTD: Reportable compensation from related organizations (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_RLTD_TOT: Total, column E (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_NUM_GT_100K: Number individuals greater than $100K (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_KONTR_NUM_GT_100K: Total number of independent contractors who received 100K+ from org
+F9_08_REV_CONTR_TOT: Total contributions
+F9_08_REV_MISC_BIZCODE: Other Revenue Misc - Business code
+F9_08_REV_MISC_OTH_EXCL: Excluded by section 512; 513; or 514: amount
+F9_08_REV_MISC_OTH_RLTD: Related or exempt function revenue
+F9_08_REV_MISC_OTH_TOT: Miscellaneous Revenue - Total revenue
+F9_08_REV_MISC_OTH_UBIZ: Unrelated business revenue
+F9_08_REV_MISC_TOT: Other Revenue Misc - Total revenue
+F9_08_REV_MISC_TOT_TOT: Other revenue - current year
+F9_08_REV_OTH_FUNDR_DIRECT_EXP: Direct expenses
+F9_08_REV_OTH_FUNDR_EVNT_1: IRS990 - 8a-1
+F9_08_REV_OTH_FUNDR_NET_TOT: Net Income From Fundraising Events - Total revenue
+F9_08_REV_OTH_GAMING: Gross income from gaming activities
+F9_08_REV_OTH_GAMING_DIRECT_EXP: Direct expenses
+F9_08_REV_OTH_GAMING_NET_TOT: Net Income From Gaming - Total revenue
+F9_08_REV_OTH_INVEST_BOND_TOT: Income From Invest Bond Proceeds - Total revenue
+F9_08_REV_OTH_INVEST_INCOME_TOT: Invest income
+F9_08_REV_OTH_INV_COST_GOODS: Less: cost of goods sold
+F9_08_REV_OTH_INV_GRO_SALE: gross sales of inventory
+F9_08_REV_OTH_INV_NET_TOT: Gross profit (or loss) from sales of inventory
+F9_08_REV_OTH_RENT_GRO_PERS: Gross Rents - Amount
+F9_08_REV_OTH_RENT_GRO_REAL: Gross Rents - Real amount
+F9_08_REV_OTH_RENT_INCOME_PERS: Rental Income Or Loss - Amount
+F9_08_REV_OTH_RENT_INCOME_REAL: Rental Income Or Loss - Real amount
+F9_08_REV_OTH_RENT_LESS_EXP_PERS: Less Rental Expenses - Amount
+F9_08_REV_OTH_RENT_LESS_EXP_REAL: Less Rental Expenses - Real amount
+F9_08_REV_OTH_RENT_NET_TOT: Net Rental Income Or Loss - Total revenue
+F9_08_REV_OTH_ROY_TOT: Royalties Revenue - Total revenue
+F9_08_REV_OTH_SALE_ASSET_OTH: Gross Amount Sales Assets - Other amount
+F9_08_REV_OTH_SALE_ASSET_SEC: Securities amount
+F9_08_REV_OTH_SALE_GAIN_NET_TOT: Gain or (loss) from sale of assets other than inventory
+F9_08_REV_OTH_SALE_GAIN_OTH: Gain Or Loss - Other amount
+F9_08_REV_OTH_SALE_GAIN_SEC: Securities amount
+F9_08_REV_OTH_SALE_LESS_COST_OTH: Less Cost Oth Basis Sales Expenses - Other amount
+F9_08_REV_OTH_SALE_LESS_COST_SEC: Securities amount
+F9_08_REV_PROG_BIZCODE: Program Service Revenue - Business code
+F9_08_REV_PROG_DESC: Program Service Revenue - Description
+F9_08_REV_PROG_OTH_TOT: Total Oth Program Service Revenue - Total revenue
+F9_08_REV_PROG_TOT: Program Service Revenue - Total revenue
+F9_08_REV_PROG_TOT_TOT: Program service revenue total
+F9_08_REV_TOT_TOT: Total Revenue - Total revenue
+F9_09_EXP_AD_PROMO_TOT: Advertising and promotion - total expense
+F9_09_EXP_BEN_PAID_MEMB_TOT: Benefits Paid to or for Members - Total Expense
+F9_09_EXP_COMP_DSQ_PERS_TOT: Compensation not included above, or to disqualified persons - Total Expense
+F9_09_EXP_COMP_DTK_TOT: Compensation for Current Officers, Directors, Trustees and Key Employees - Total Expense
+F9_09_EXP_CONF_MEETING_TOT: Conferences, conventions, and meetings- total expense
+F9_09_EXP_DEPREC_TOT: Depreciation, depletion, and amortization
+F9_09_EXP_FEE_SVC_ACC_TOT: Fees for Services - Accounting - Total Expense
+F9_09_EXP_FEE_SVC_FUNDR_TOT: Fees for Professional Fundraising Services - Total Expense
+F9_09_EXP_FEE_SVC_INVEST_TOT: Investment Management Fees - Total Expense
+F9_09_EXP_FEE_SVC_LEGAL_TOT: Fees for Services - Legal - Total Expense
+F9_09_EXP_FEE_SVC_LOB_TOT: Fees for Services - Lobbying - Total Expense
+F9_09_EXP_FEE_SVC_MGMT_TOT: Fees for Services - Management - Total Expense
+F9_09_EXP_FEE_SVC_OTH_TOT: Fees for Services - Other - Total Expense
+F9_09_EXP_GRANT_FRGN_TOT: total Grants to Foreign Orgs and Governments - Total Expense
+F9_09_EXP_GRANT_US_INDIV_TOT: Grants To Domestic Individuals - Total
+F9_09_EXP_GRANT_US_ORG_TOT: Grants To Domestic Orgs - Total
+F9_09_EXP_INFO_TECH_TOT: Information Technology - Total
+F9_09_EXP_INSURANCE_TOT: Insurance - Total
+F9_09_EXP_INT_TOT: Interest - Total
+F9_09_EXP_OCCUPANCY_TOT: Occupancy; rent; utilities; and maintenance
+F9_09_EXP_OFFICE_TOT: Office Expenses - Total
+F9_09_EXP_OTH_EMPL_BEN_TOT: Other Employee Benefits - Total
+F9_09_EXP_OTH_OTH_TOT: Other expenses - total expense
+F9_09_EXP_OTH_SAL_WAGE_TOT: Other Salaries And Wages - Total
+F9_09_EXP_OTH_TOT: Other Expenses - Total
+F9_09_EXP_PAYROLL_TAX_TOT: Payroll Taxes - Total
+F9_09_EXP_PAY_AFFIL_TOT: Payments To Affiliates - Total
+F9_09_EXP_PENSION_CONTR_TOT: Pension Plan Contributions - Total
+F9_09_EXP_ROY_TOT: Royalties - Total
+F9_09_EXP_TOT_TOT: Total Functional Expenses - Total
+F9_09_EXP_TRAVEL_ENTMT_TOT: Travel Entrtnmnt Public Officials - Total
+F9_09_EXP_TRAVEL_TOT: Travel - Total
+F9_10_ASSET_ACC_NET_EOY: Net accounts receivable, end of year
+F9_10_ASSET_CASH_EOY: Cash, non-interest-bearing, end of year
+F9_10_ASSET_EXP_PREPAID_EOY: Ending of year
+F9_10_ASSET_INTANGIBLE_EOY: Ending of year
+F9_10_ASSET_INVEST_PROG_RLTD_EOY: Ending of year
+F9_10_ASSET_INVEST_SEC_EOY: Ending of year
+F9_10_ASSET_INVEST_SEC_OTH_EOY: Ending of year
+F9_10_ASSET_INV_SALE_EOY: Ending of year
+F9_10_ASSET_LAND_BLDG_DEPREC: Less: accumulated depreciation
+F9_10_ASSET_LAND_BLDG_NET_EOY: Net value including lands; buildings; and equipment; end of year
+F9_10_ASSET_LOAN_DSQ_PERS_EOY: Ending of year
+F9_10_ASSET_LOAN_OFF_EOY: Ending of year
+F9_10_ASSET_NOTE_LOAN_NET_EOY: Ending of year
+F9_10_ASSET_OTH_EOY: Ending of year
+F9_10_ASSET_PLEDGE_NET_EOY: Ending of year
+F9_10_ASSET_SAVING_EOY: Ending of year
+F9_10_ASSET_TOT_EOY: Total assets, end of year
+F9_10_LIAB_ACC_PAYABLE_EOY: Accounts payable and accrued expenses, end of year
+F9_10_LIAB_ESCROW_ACC_EOY: Escrow or custodial account liability, end of year
+F9_10_LIAB_GRANT_PAYABLE_EOY: Ending of year
+F9_10_LIAB_LOAN_OFF_EOY: Ending of year
+F9_10_LIAB_MTG_NOTE_EOY: Ending of year
+F9_10_LIAB_NOTE_UNSEC_EOY: Ending of year
+F9_10_LIAB_OTH_EOY: Ending of year
+F9_10_LIAB_REV_DEFERRED_EOY: Deferred revenue, end of year
+F9_10_LIAB_TAX_EXEMPT_BOND_EOY: Ending of year
+F9_10_LIAB_TOT_EOY: Total liabilities, end of year
+F9_10_NAFB_CAP_STCK_EOY: Capital stock or trust principal, or current funds, end of year
+F9_10_NAFB_CAP_SURPLUS_EOY: Ending of year
+F9_10_NAFB_EARNING_RETAINED_EOY: Ending of year
+F9_10_NAFB_RESTRICT_PERM_EOY: Ending of year
+F9_10_NAFB_RESTRICT_TEMP_EOY: Ending of year
+F9_10_NAFB_TOT_EOY: Net assets or fund balances, end of year
+F9_10_NAFB_TOT_LIAB_NAFB_EOY: Ending of year
+F9_10_NAFB_UNRESTRICT_EOY: Ending of year
+GEO_ZIP5: 5-digit Zip Code
+SA_01_PCSTAT_ORG_AMT_SUPPORT: Amount of support
+SA_01_PCSTAT_ORG_AMT_SUPPORT_TOT: Sum of amounts of support
+SA_01_PCSTAT_SUPPORT_ORG_NUM: Number of supported organizations
+SA_02_PUB_CONTR_SBST_TOT: Amounts from substantial contributors total
+SA_02_PUB_GIFT_GRANT_CONTR_TOT: Gifts Grants Contri Rcvd170 Grp - Total
+SA_02_PUB_SUPPORT_TOT: Public Support Total
+SA_02_PUB_TAXREV_LEVIED_TOT: Tax Rev Levied For Org Benefit170 - Total
+SA_02_PUB_TOT_L123_TOT: Total - Total - Total
+SA_02_PUB_VALUE_SVC_GOVT_TOT: Govt Furn Srvc Fclts Vl170 Grp - Total
+SA_02_TOT_AMT_L4_CY_TOT: Amounts From Line4 - Total
+SA_02_TOT_GRO_RCPT_RLTD_ACTS: Gross receipts from admissions; merchandise sold or services performed; or furnishing of facilities in any activity that is related to the organization's tax-exempt purpose
+SA_02_TOT_INCOME_GRO_TOT: Gross Investment Income - Total
+SA_02_TOT_INCOME_NET_UBIZ_TOT: Net UBI - Total
+SA_02_TOT_INCOME_OTH_TOT: Other Income - Total
+SA_02_TOT_SUPPORT_TOT: Form990 Schedule APart II - Total support
+SA_03_PUB_ADD_L7AB_TOT: Subst And Dsqlfy Prsns Tot Grp - Total
+SA_03_PUB_AMT_CONTR_SBST_TOT: Amts From Subst Contributors - Total
+SA_03_PUB_AMT_PERS_DSQ_TOT: Amounts Rcvd Dsqlfy Person Grp - Total
+SA_03_PUB_GIFT_GRANT_CONTR_TOT: Gifts Grants Contrib Received - Total
+SA_03_PUB_GRO_RCPT_ADM_TOT: Gross Receipts Admissions Grp - Total
+SA_03_PUB_GRO_RCPT_NONUBIZ_TOT: Gross Receipts From Non UBI - Total
+SA_03_PUB_SUPPORT_TOT: Public support total
+SA_03_PUB_TAXREV_LEVIED_TOT: Tax Rev Levied For Org Benefit509 - Total
+SA_03_PUB_TOT_L1_5_TOT: Total - Total - Total
+SA_03_PUB_VALUE_SVC_GOVT_TOT: Govt Furn Srvc Fclts Vl509 Grp - Total
+SA_03_TOT_ADD_L10AB_TOT: Investment Income And UBTI - Total
+SA_03_TOT_AMT_L6_TOT: Amts From Line6 - Total
+SA_03_TOT_INCOME_GRO_TOT: Gross Investment Income - Total
+SA_03_TOT_INCOME_NET_UBIZ_TOT: Net Income From Other UBI - Total
+SA_03_TOT_INCOME_OTH_TOT: Other Income - Total
+SA_03_TOT_INCOME_UBIZ_TOT: Post1975 UBTI - Total
+SA_03_TOT_SUPPORT_TOT: Total Support Calendar Year Grp - Total
+TAX_YEAR: Tax Year
+DUP_RTRN_X: Indicates duplicate return
+F9_00_EXEMPT_STAT_501C3_X: Indicates a 501(c)(3) organization
+F9_00_ORG_EIN: Orgainization Employer Identification Number (EIN)
+F9_00_TAX_PERIOD_BEGIN_DATE: Tax period begin date
+F9_00_TAX_PERIOD_END_DATE: Tax period end date
+F9_00_TAX_YEAR: Tax year
+F9_03_PROG_CODE: Activity2 - Activity code
+F9_05_170C_NUM_FORM_8282_FILED_X: Number of 8282s filed
+F9_05_4947_TAX_EXEMPT_INT_AMT: Indicates section 4947(a)(1) nonexempt charitable trusts filing Form 990 in lieu of Form 1041
+F9_05_501C12_GRO_INCOME_MEMB: Gross income from members
+F9_05_501C12_GRO_INCOME_OTH: Gross income, other sources
+F9_05_501C29_RESERVE_MAINT_AMT: Reserves maintained amount
+F9_05_501C29_STATE_RESERVE_AMT: State required reserves amount
+F9_05_501C7_GRO_RCPT_PUB_USE: 501(c)(7) orgs: Gross receipts, included on line 9, for public use of club facilities
+F9_05_501C7_INITIATION_FEES: 501(c)(7) orgs: Initiation fees and capital contributions included on line 9
+F9_05_NUM_EMPL: Number of employees
+F9_05_NUM_FORM_1096_BOX_3: Number forms transmitted with 1096
+F9_05_NUM_FORM_W2G: Number W-2Gs included in 1a
+F9_07_COMP_DTK_COMP_ORG_TOT: Total, column D (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_OTH_TOT: Total, column F (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_RLTD_TOT: Total, column E (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_NUM_GT_100K: Number individuals greater than $100K (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_KONTR_NUM_GT_100K: Total number of independent contractors who received 100K+ from org
+F9_08_REV_CONTR_TOT: Total contributions
+F9_08_REV_MISC_BIZCODE: Other Revenue Misc - Business code
+F9_08_REV_MISC_OTH_TOT: Miscellaneous Revenue - Total revenue
+F9_08_REV_MISC_TOT: Other Revenue Misc - Total revenue
+F9_08_REV_MISC_TOT_TOT: Other revenue - current year
+F9_08_REV_OTH_FUNDR_DIRECT_EXP: Direct expenses
+F9_08_REV_OTH_FUNDR_EVNT_1: IRS990 - 8a-1
+F9_08_REV_OTH_FUNDR_NET_TOT: Net Income From Fundraising Events - Total revenue
+F9_08_REV_OTH_GAMING: Gross income from gaming activities
+F9_08_REV_OTH_GAMING_DIRECT_EXP: Direct expenses
+F9_08_REV_OTH_GAMING_NET_TOT: Net Income From Gaming - Total revenue
+F9_08_REV_OTH_INVEST_BOND_TOT: Income From Invest Bond Proceeds - Total revenue
+F9_08_REV_OTH_INVEST_INCOME_TOT: Invest income
+F9_08_REV_OTH_INV_COST_GOODS: Less: cost of goods sold
+F9_08_REV_OTH_INV_GRO_SALE: gross sales of inventory
+F9_08_REV_OTH_INV_NET_TOT: Gross profit (or loss) from sales of inventory
+F9_08_REV_OTH_RENT_GRO_PERS: Gross Rents - Amount
+F9_08_REV_OTH_RENT_GRO_REAL: Gross Rents - Real amount
+F9_08_REV_OTH_RENT_INCOME_PERS: Rental Income Or Loss - Amount
+F9_08_REV_OTH_RENT_INCOME_REAL: Rental Income Or Loss - Real amount
+F9_08_REV_OTH_RENT_LESS_EXP_PERS: Less Rental Expenses - Amount
+F9_08_REV_OTH_RENT_LESS_EXP_REAL: Less Rental Expenses - Real amount
+F9_08_REV_OTH_RENT_NET_TOT: Net Rental Income Or Loss - Total revenue
+F9_08_REV_OTH_ROY_TOT: Royalties Revenue - Total revenue
+F9_08_REV_OTH_SALE_ASSET_OTH: Gross Amount Sales Assets - Other amount
+F9_08_REV_OTH_SALE_ASSET_SEC: Securities amount
+F9_08_REV_OTH_SALE_GAIN_NET_TOT: Gain or (loss) from sale of assets other than inventory
+F9_08_REV_OTH_SALE_GAIN_OTH: Gain Or Loss - Other amount
+F9_08_REV_OTH_SALE_GAIN_SEC: Securities amount
+F9_08_REV_OTH_SALE_LESS_COST_OTH: Less Cost Oth Basis Sales Expenses - Other amount
+F9_08_REV_OTH_SALE_LESS_COST_SEC: Securities amount
+F9_08_REV_PROG_BIZCODE: Program Service Revenue - Business code
+F9_08_REV_PROG_OTH_TOT: Total Oth Program Service Revenue - Total revenue
+F9_08_REV_PROG_TOT: Program Service Revenue - Total revenue
+F9_08_REV_PROG_TOT_TOT: Program service revenue total
+F9_08_REV_TOT_TOT: Total Revenue - Total revenue
+F9_09_EXP_AD_PROMO_TOT: Advertising and promotion - total expense
+F9_09_EXP_BEN_PAID_MEMB_TOT: Benefits Paid to or for Members - Total Expense
+F9_09_EXP_COMP_DSQ_PERS_TOT: Compensation not included above, or to disqualified persons - Total Expense
+F9_09_EXP_COMP_DTK_TOT: Compensation for Current Officers, Directors, Trustees and Key Employees - Total Expense
+F9_09_EXP_CONF_MEETING_TOT: Conferences, conventions, and meetings- total expense
+F9_09_EXP_DEPREC_TOT: Depreciation, depletion, and amortization
+F9_09_EXP_FEE_SVC_ACC_TOT: Fees for Services - Accounting - Total Expense
+F9_09_EXP_FEE_SVC_FUNDR_TOT: Fees for Professional Fundraising Services - Total Expense
+F9_09_EXP_FEE_SVC_INVEST_TOT: Investment Management Fees - Total Expense
+F9_09_EXP_FEE_SVC_LEGAL_TOT: Fees for Services - Legal - Total Expense
+F9_09_EXP_FEE_SVC_LOB_TOT: Fees for Services - Lobbying - Total Expense
+F9_09_EXP_FEE_SVC_MGMT_TOT: Fees for Services - Management - Total Expense
+F9_09_EXP_FEE_SVC_OTH_TOT: Fees for Services - Other - Total Expense
+F9_09_EXP_GRANT_FRGN_TOT: total Grants to Foreign Orgs and Governments - Total Expense
+F9_09_EXP_GRANT_US_INDIV_TOT: Grants To Domestic Individuals - Total
+F9_09_EXP_GRANT_US_ORG_TOT: Grants To Domestic Orgs - Total
+F9_09_EXP_INFO_TECH_TOT: Information Technology - Total
+F9_09_EXP_INSURANCE_TOT: Insurance - Total
+F9_09_EXP_INT_TOT: Interest - Total
+F9_09_EXP_OCCUPANCY_TOT: Occupancy; rent; utilities; and maintenance
+F9_09_EXP_OFFICE_TOT: Office Expenses - Total
+F9_09_EXP_OTH_EMPL_BEN_TOT: Other Employee Benefits - Total
+F9_09_EXP_OTH_OTH_TOT: Other expenses - total expense
+F9_09_EXP_OTH_SAL_WAGE_TOT: Other Salaries And Wages - Total
+F9_09_EXP_OTH_TOT: Other Expenses - Total
+F9_09_EXP_PAYROLL_TAX_TOT: Payroll Taxes - Total
+F9_09_EXP_PAY_AFFIL_TOT: Payments To Affiliates - Total
+F9_09_EXP_PENSION_CONTR_TOT: Pension Plan Contributions - Total
+F9_09_EXP_ROY_TOT: Royalties - Total
+F9_09_EXP_TOT_TOT: Total Functional Expenses - Total
+F9_09_EXP_TRAVEL_ENTMT_TOT: Travel Entrtnmnt Public Officials - Total
+F9_09_EXP_TRAVEL_TOT: Travel - Total
+F9_10_ASSET_ACC_NET_EOY: Net accounts receivable, end of year
+F9_10_ASSET_CASH_EOY: Cash, non-interest-bearing, end of year
+F9_10_ASSET_EXP_PREPAID_EOY: Ending of year
+F9_10_ASSET_INTANGIBLE_EOY: Ending of year
+F9_10_ASSET_INVEST_PROG_RLTD_EOY: Ending of year
+F9_10_ASSET_INVEST_SEC_EOY: Ending of year
+F9_10_ASSET_INVEST_SEC_OTH_EOY: Ending of year
+F9_10_ASSET_INV_SALE_EOY: Ending of year
+F9_10_ASSET_LAND_BLDG_DEPREC: Less: accumulated depreciation
+F9_10_ASSET_LAND_BLDG_NET_EOY: Net value including lands; buildings; and equipment; end of year
+F9_10_ASSET_LOAN_DSQ_PERS_EOY: Ending of year
+F9_10_ASSET_LOAN_OFF_EOY: Ending of year
+F9_10_ASSET_NOTE_LOAN_NET_EOY: Ending of year
+F9_10_ASSET_OTH_EOY: Ending of year
+F9_10_ASSET_PLEDGE_NET_EOY: Ending of year
+F9_10_ASSET_SAVING_EOY: Ending of year
+F9_10_ASSET_TOT_EOY: Total assets, end of year
+F9_10_LIAB_ACC_PAYABLE_EOY: Accounts payable and accrued expenses, end of year
+F9_10_LIAB_ESCROW_ACC_EOY: Escrow or custodial account liability, end of year
+F9_10_LIAB_GRANT_PAYABLE_EOY: Ending of year
+F9_10_LIAB_LOAN_OFF_EOY: Ending of year
+F9_10_LIAB_MTG_NOTE_EOY: Ending of year
+F9_10_LIAB_NOTE_UNSEC_EOY: Ending of year
+F9_10_LIAB_OTH_EOY: Ending of year
+F9_10_LIAB_REV_DEFERRED_EOY: Deferred revenue, end of year
+F9_10_LIAB_TAX_EXEMPT_BOND_EOY: Ending of year
+F9_10_LIAB_TOT_EOY: Total liabilities, end of year
+F9_10_NAFB_CAP_STCK_EOY: Capital stock or trust principal, or current funds, end of year
+F9_10_NAFB_CAP_SURPLUS_EOY: Ending of year
+F9_10_NAFB_EARNING_RETAINED_EOY: Ending of year
+F9_10_NAFB_RESTRICT_PERM_EOY: Ending of year
+F9_10_NAFB_RESTRICT_TEMP_EOY: Ending of year
+F9_10_NAFB_TOT_EOY: Net assets or fund balances, end of year
+F9_10_NAFB_TOT_LIAB_NAFB_EOY: Ending of year
+F9_10_NAFB_UNRESTRICT_EOY: Ending of year
+GEO_ZIP5: 5-digit Zip Code
+SA_01_PCSTAT_ORG_AMT_SUPPORT: Amount of support
+SA_01_PCSTAT_SUPPORT_ORG_NUM: Number of supported organizations
+SA_02_PUB_CONTR_SBST_TOT: Amounts from substantial contributors total
+SA_02_PUB_GIFT_GRANT_CONTR_TOT: Gifts Grants Contri Rcvd170 Grp - Total
+SA_02_PUB_SUPPORT_TOT: Public Support Total
+SA_02_PUB_TAXREV_LEVIED_TOT: Tax Rev Levied For Org Benefit170 - Total
+SA_02_PUB_TOT_L123_TOT: Total - Total - Total
+SA_02_PUB_VALUE_SVC_GOVT_TOT: Govt Furn Srvc Fclts Vl170 Grp - Total
+SA_02_TOT_AMT_L4_CY_TOT: Amounts From Line4 - Total
+SA_02_TOT_GRO_RCPT_RLTD_ACTS: Gross receipts from admissions; merchandise sold or services performed; or furnishing of facilities in any activity that is related to the organization's tax-exempt purpose
+SA_02_TOT_INCOME_GRO_TOT: Gross Investment Income - Total
+SA_02_TOT_INCOME_NET_UBIZ_TOT: Net UBI - Total
+SA_02_TOT_INCOME_OTH_TOT: Other Income - Total
+SA_02_TOT_SUPPORT_TOT: Form990 Schedule APart II - Total support
+SA_03_PUB_ADD_L7AB_TOT: Subst And Dsqlfy Prsns Tot Grp - Total
+SA_03_PUB_AMT_CONTR_SBST_TOT: Amts From Subst Contributors - Total
+SA_03_PUB_AMT_PERS_DSQ_TOT: Amounts Rcvd Dsqlfy Person Grp - Total
+SA_03_PUB_GIFT_GRANT_CONTR_TOT: Gifts Grants Contrib Received - Total
+SA_03_PUB_GRO_RCPT_ADM_TOT: Gross Receipts Admissions Grp - Total
+SA_03_PUB_GRO_RCPT_NONUBIZ_TOT: Gross Receipts From Non UBI - Total
+SA_03_PUB_SUPPORT_TOT: Public support total
+SA_03_PUB_TAXREV_LEVIED_TOT: Tax Rev Levied For Org Benefit509 - Total
+SA_03_PUB_TOT_L1_5_TOT: Total - Total - Total
+SA_03_PUB_VALUE_SVC_GOVT_TOT: Govt Furn Srvc Fclts Vl509 Grp - Total
+SA_03_TOT_ADD_L10AB_TOT: Investment Income And UBTI - Total
+SA_03_TOT_AMT_L6_TOT: Amts From Line6 - Total
+SA_03_TOT_INCOME_GRO_TOT: Gross Investment Income - Total
+SA_03_TOT_INCOME_NET_UBIZ_TOT: Net Income From Other UBI - Total
+SA_03_TOT_INCOME_OTH_TOT: Other Income - Total
+SA_03_TOT_INCOME_UBIZ_TOT: Post1975 UBTI - Total
+SA_03_TOT_SUPPORT_TOT: Total Support Calendar Year Grp - Total
+TAX_YEAR: Tax Year
+DUP_RTRN_X: Indicates duplicate return
+F9_00_EXEMPT_STAT_501C3_X: Indicates a 501(c)(3) organization
+F9_00_ORG_EIN: Orgainization Employer Identification Number (EIN)
+F9_00_TAX_PERIOD_BEGIN_DATE: Tax period begin date
+F9_00_TAX_PERIOD_END_DATE: Tax period end date
+F9_00_TAX_YEAR: Tax year
+F9_03_PROG_CODE: Activity2 - Activity code
+F9_05_170C_NUM_FORM_8282_FILED_X: Number of 8282s filed
+F9_05_4947_TAX_EXEMPT_INT_AMT: Indicates section 4947(a)(1) nonexempt charitable trusts filing Form 990 in lieu of Form 1041
+F9_05_501C12_GRO_INCOME_MEMB: Gross income from members
+F9_05_501C12_GRO_INCOME_OTH: Gross income, other sources
+F9_05_501C29_RESERVE_MAINT_AMT: Reserves maintained amount
+F9_05_501C29_STATE_RESERVE_AMT: State required reserves amount
+F9_05_501C7_GRO_RCPT_PUB_USE: 501(c)(7) orgs: Gross receipts, included on line 9, for public use of club facilities
+F9_05_501C7_INITIATION_FEES: 501(c)(7) orgs: Initiation fees and capital contributions included on line 9
+F9_05_NUM_EMPL: Number of employees
+F9_05_NUM_FORM_1096_BOX_3: Number forms transmitted with 1096
+F9_05_NUM_FORM_W2G: Number W-2Gs included in 1a
+F9_07_COMP_DTK_COMP_ORG: Reportable compensation from organization (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_ORG_TOT: Total, column D (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_OTH: Other compensation (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_OTH_TOT: Total, column F (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_RLTD: Reportable compensation from related organizations (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_RLTD_TOT: Total, column E (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_NUM_GT_100K: Number individuals greater than $100K (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_KONTR_NUM_GT_100K: Total number of independent contractors who received 100K+ from org
+F9_08_REV_CONTR_TOT: Total contributions
+F9_08_REV_MISC_BIZCODE: Other Revenue Misc - Business code
+F9_08_REV_MISC_OTH_EXCL: Excluded by section 512; 513; or 514: amount
+F9_08_REV_MISC_OTH_RLTD: Related or exempt function revenue
+F9_08_REV_MISC_OTH_TOT: Miscellaneous Revenue - Total revenue
+F9_08_REV_MISC_OTH_UBIZ: Unrelated business revenue
+F9_08_REV_MISC_TOT: Other Revenue Misc - Total revenue
+F9_08_REV_MISC_TOT_TOT: Other revenue - current year
+F9_08_REV_OTH_FUNDR_DIRECT_EXP: Direct expenses
+F9_08_REV_OTH_FUNDR_EVNT_1: IRS990 - 8a-1
+F9_08_REV_OTH_FUNDR_NET_TOT: Net Income From Fundraising Events - Total revenue
+F9_08_REV_OTH_GAMING: Gross income from gaming activities
+F9_08_REV_OTH_GAMING_DIRECT_EXP: Direct expenses
+F9_08_REV_OTH_GAMING_NET_TOT: Net Income From Gaming - Total revenue
+F9_08_REV_OTH_INVEST_BOND_TOT: Income From Invest Bond Proceeds - Total revenue
+F9_08_REV_OTH_INVEST_INCOME_TOT: Invest income
+F9_08_REV_OTH_INV_COST_GOODS: Less: cost of goods sold
+F9_08_REV_OTH_INV_GRO_SALE: gross sales of inventory
+F9_08_REV_OTH_INV_NET_TOT: Gross profit (or loss) from sales of inventory
+F9_08_REV_OTH_RENT_GRO_PERS: Gross Rents - Amount
+F9_08_REV_OTH_RENT_GRO_REAL: Gross Rents - Real amount
+F9_08_REV_OTH_RENT_INCOME_PERS: Rental Income Or Loss - Amount
+F9_08_REV_OTH_RENT_INCOME_REAL: Rental Income Or Loss - Real amount
+F9_08_REV_OTH_RENT_LESS_EXP_PERS: Less Rental Expenses - Amount
+F9_08_REV_OTH_RENT_LESS_EXP_REAL: Less Rental Expenses - Real amount
+F9_08_REV_OTH_RENT_NET_TOT: Net Rental Income Or Loss - Total revenue
+F9_08_REV_OTH_ROY_TOT: Royalties Revenue - Total revenue
+F9_08_REV_OTH_SALE_ASSET_OTH: Gross Amount Sales Assets - Other amount
+F9_08_REV_OTH_SALE_ASSET_SEC: Securities amount
+F9_08_REV_OTH_SALE_GAIN_NET_TOT: Gain or (loss) from sale of assets other than inventory
+F9_08_REV_OTH_SALE_GAIN_OTH: Gain Or Loss - Other amount
+F9_08_REV_OTH_SALE_GAIN_SEC: Securities amount
+F9_08_REV_OTH_SALE_LESS_COST_OTH: Less Cost Oth Basis Sales Expenses - Other amount
+F9_08_REV_OTH_SALE_LESS_COST_SEC: Securities amount
+F9_08_REV_PROG_BIZCODE: Program Service Revenue - Business code
+F9_08_REV_PROG_DESC: Program Service Revenue - Description
+F9_08_REV_PROG_OTH_TOT: Total Oth Program Service Revenue - Total revenue
+F9_08_REV_PROG_TOT: Program Service Revenue - Total revenue
+F9_08_REV_PROG_TOT_TOT: Program service revenue total
+F9_08_REV_TOT_TOT: Total Revenue - Total revenue
+F9_09_EXP_AD_PROMO_TOT: Advertising and promotion - total expense
+F9_09_EXP_BEN_PAID_MEMB_TOT: Benefits Paid to or for Members - Total Expense
+F9_09_EXP_COMP_DSQ_PERS_TOT: Compensation not included above, or to disqualified persons - Total Expense
+F9_09_EXP_COMP_DTK_TOT: Compensation for Current Officers, Directors, Trustees and Key Employees - Total Expense
+F9_09_EXP_CONF_MEETING_TOT: Conferences, conventions, and meetings- total expense
+F9_09_EXP_DEPREC_TOT: Depreciation, depletion, and amortization
+F9_09_EXP_FEE_SVC_ACC_TOT: Fees for Services - Accounting - Total Expense
+F9_09_EXP_FEE_SVC_FUNDR_TOT: Fees for Professional Fundraising Services - Total Expense
+F9_09_EXP_FEE_SVC_INVEST_TOT: Investment Management Fees - Total Expense
+F9_09_EXP_FEE_SVC_LEGAL_TOT: Fees for Services - Legal - Total Expense
+F9_09_EXP_FEE_SVC_LOB_TOT: Fees for Services - Lobbying - Total Expense
+F9_09_EXP_FEE_SVC_MGMT_TOT: Fees for Services - Management - Total Expense
+F9_09_EXP_FEE_SVC_OTH_TOT: Fees for Services - Other - Total Expense
+F9_09_EXP_GRANT_FRGN_TOT: total Grants to Foreign Orgs and Governments - Total Expense
+F9_09_EXP_GRANT_US_INDIV_TOT: Grants To Domestic Individuals - Total
+F9_09_EXP_GRANT_US_ORG_TOT: Grants To Domestic Orgs - Total
+F9_09_EXP_INFO_TECH_TOT: Information Technology - Total
+F9_09_EXP_INSURANCE_TOT: Insurance - Total
+F9_09_EXP_INT_TOT: Interest - Total
+F9_09_EXP_OCCUPANCY_TOT: Occupancy; rent; utilities; and maintenance
+F9_09_EXP_OFFICE_TOT: Office Expenses - Total
+F9_09_EXP_OTH_EMPL_BEN_TOT: Other Employee Benefits - Total
+F9_09_EXP_OTH_OTH_TOT: Other expenses - total expense
+F9_09_EXP_OTH_SAL_WAGE_TOT: Other Salaries And Wages - Total
+F9_09_EXP_OTH_TOT: Other Expenses - Total
+F9_09_EXP_PAYROLL_TAX_TOT: Payroll Taxes - Total
+F9_09_EXP_PAY_AFFIL_TOT: Payments To Affiliates - Total
+F9_09_EXP_PENSION_CONTR_TOT: Pension Plan Contributions - Total
+F9_09_EXP_ROY_TOT: Royalties - Total
+F9_09_EXP_TOT_TOT: Total Functional Expenses - Total
+F9_09_EXP_TRAVEL_ENTMT_TOT: Travel Entrtnmnt Public Officials - Total
+F9_09_EXP_TRAVEL_TOT: Travel - Total
+F9_10_ASSET_ACC_NET_EOY: Net accounts receivable, end of year
+F9_10_ASSET_CASH_EOY: Cash, non-interest-bearing, end of year
+F9_10_ASSET_EXP_PREPAID_EOY: Ending of year
+F9_10_ASSET_INTANGIBLE_EOY: Ending of year
+F9_10_ASSET_INVEST_PROG_RLTD_EOY: Ending of year
+F9_10_ASSET_INVEST_SEC_EOY: Ending of year
+F9_10_ASSET_INVEST_SEC_OTH_EOY: Ending of year
+F9_10_ASSET_INV_SALE_EOY: Ending of year
+F9_10_ASSET_LAND_BLDG_DEPREC: Less: accumulated depreciation
+F9_10_ASSET_LAND_BLDG_NET_EOY: Net value including lands; buildings; and equipment; end of year
+F9_10_ASSET_LOAN_DSQ_PERS_EOY: Ending of year
+F9_10_ASSET_LOAN_OFF_EOY: Ending of year
+F9_10_ASSET_NOTE_LOAN_NET_EOY: Ending of year
+F9_10_ASSET_OTH_EOY: Ending of year
+F9_10_ASSET_PLEDGE_NET_EOY: Ending of year
+F9_10_ASSET_SAVING_EOY: Ending of year
+F9_10_ASSET_TOT_EOY: Total assets, end of year
+F9_10_LIAB_ACC_PAYABLE_EOY: Accounts payable and accrued expenses, end of year
+F9_10_LIAB_ESCROW_ACC_EOY: Escrow or custodial account liability, end of year
+F9_10_LIAB_GRANT_PAYABLE_EOY: Ending of year
+F9_10_LIAB_LOAN_OFF_EOY: Ending of year
+F9_10_LIAB_MTG_NOTE_EOY: Ending of year
+F9_10_LIAB_NOTE_UNSEC_EOY: Ending of year
+F9_10_LIAB_OTH_EOY: Ending of year
+F9_10_LIAB_REV_DEFERRED_EOY: Deferred revenue, end of year
+F9_10_LIAB_TAX_EXEMPT_BOND_EOY: Ending of year
+F9_10_LIAB_TOT_EOY: Total liabilities, end of year
+F9_10_NAFB_CAP_STCK_EOY: Capital stock or trust principal, or current funds, end of year
+F9_10_NAFB_CAP_SURPLUS_EOY: Ending of year
+F9_10_NAFB_EARNING_RETAINED_EOY: Ending of year
+F9_10_NAFB_RESTRICT_PERM_EOY: Ending of year
+F9_10_NAFB_RESTRICT_TEMP_EOY: Ending of year
+F9_10_NAFB_TOT_EOY: Net assets or fund balances, end of year
+F9_10_NAFB_TOT_LIAB_NAFB_EOY: Ending of year
+F9_10_NAFB_UNRESTRICT_EOY: Ending of year
+GEO_ZIP5: 5-digit Zip Code
+SA_01_PCSTAT_ORG_AMT_SUPPORT: Amount of support
+SA_01_PCSTAT_ORG_AMT_SUPPORT_TOT: Sum of amounts of support
+SA_01_PCSTAT_SUPPORT_ORG_NUM: Number of supported organizations
+SA_02_PUB_CONTR_SBST_TOT: Amounts from substantial contributors total
+SA_02_PUB_GIFT_GRANT_CONTR_TOT: Gifts Grants Contri Rcvd170 Grp - Total
+SA_02_PUB_SUPPORT_TOT: Public Support Total
+SA_02_PUB_TAXREV_LEVIED_TOT: Tax Rev Levied For Org Benefit170 - Total
+SA_02_PUB_TOT_L123_TOT: Total - Total - Total
+SA_02_PUB_VALUE_SVC_GOVT_TOT: Govt Furn Srvc Fclts Vl170 Grp - Total
+SA_02_TOT_AMT_L4_CY_TOT: Amounts From Line4 - Total
+SA_02_TOT_GRO_RCPT_RLTD_ACTS: Gross receipts from admissions; merchandise sold or services performed; or furnishing of facilities in any activity that is related to the organization's tax-exempt purpose
+SA_02_TOT_INCOME_GRO_TOT: Gross Investment Income - Total
+SA_02_TOT_INCOME_NET_UBIZ_TOT: Net UBI - Total
+SA_02_TOT_INCOME_OTH_TOT: Other Income - Total
+SA_02_TOT_SUPPORT_TOT: Form990 Schedule APart II - Total support
+SA_03_PUB_ADD_L7AB_TOT: Subst And Dsqlfy Prsns Tot Grp - Total
+SA_03_PUB_AMT_CONTR_SBST_TOT: Amts From Subst Contributors - Total
+SA_03_PUB_AMT_PERS_DSQ_TOT: Amounts Rcvd Dsqlfy Person Grp - Total
+SA_03_PUB_GIFT_GRANT_CONTR_TOT: Gifts Grants Contrib Received - Total
+SA_03_PUB_GRO_RCPT_ADM_TOT: Gross Receipts Admissions Grp - Total
+SA_03_PUB_GRO_RCPT_NONUBIZ_TOT: Gross Receipts From Non UBI - Total
+SA_03_PUB_SUPPORT_TOT: Public support total
+SA_03_PUB_TAXREV_LEVIED_TOT: Tax Rev Levied For Org Benefit509 - Total
+SA_03_PUB_TOT_L1_5_TOT: Total - Total - Total
+SA_03_PUB_VALUE_SVC_GOVT_TOT: Govt Furn Srvc Fclts Vl509 Grp - Total
+SA_03_TOT_ADD_L10AB_TOT: Investment Income And UBTI - Total
+SA_03_TOT_AMT_L6_TOT: Amts From Line6 - Total
+SA_03_TOT_INCOME_GRO_TOT: Gross Investment Income - Total
+SA_03_TOT_INCOME_NET_UBIZ_TOT: Net Income From Other UBI - Total
+SA_03_TOT_INCOME_OTH_TOT: Other Income - Total
+SA_03_TOT_INCOME_UBIZ_TOT: Post1975 UBTI - Total
+SA_03_TOT_SUPPORT_TOT: Total Support Calendar Year Grp - Total
+TAX_YEAR: Tax Year
+DUP_RTRN_X: Indicates duplicate return
+F9_00_EXEMPT_STAT_501C3_X: Indicates a 501(c)(3) organization
+F9_00_ORG_EIN: Orgainization Employer Identification Number (EIN)
+F9_00_TAX_PERIOD_BEGIN_DATE: Tax period begin date
+F9_00_TAX_PERIOD_END_DATE: Tax period end date
+F9_00_TAX_YEAR: Tax year
+F9_03_PROG_CODE: Activity2 - Activity code
+F9_05_170C_NUM_FORM_8282_FILED_X: Number of 8282s filed
+F9_05_4947_TAX_EXEMPT_INT_AMT: Indicates section 4947(a)(1) nonexempt charitable trusts filing Form 990 in lieu of Form 1041
+F9_05_501C12_GRO_INCOME_MEMB: Gross income from members
+F9_05_501C12_GRO_INCOME_OTH: Gross income, other sources
+F9_05_501C29_RESERVE_MAINT_AMT: Reserves maintained amount
+F9_05_501C29_STATE_RESERVE_AMT: State required reserves amount
+F9_05_501C7_GRO_RCPT_PUB_USE: 501(c)(7) orgs: Gross receipts, included on line 9, for public use of club facilities
+F9_05_501C7_INITIATION_FEES: 501(c)(7) orgs: Initiation fees and capital contributions included on line 9
+F9_05_NUM_EMPL: Number of employees
+F9_05_NUM_FORM_1096_BOX_3: Number forms transmitted with 1096
+F9_05_NUM_FORM_W2G: Number W-2Gs included in 1a
+F9_07_COMP_DTK_COMP_ORG_TOT: Total, column D (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_OTH_TOT: Total, column F (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_COMP_RLTD_TOT: Total, column E (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_DTK_NUM_GT_100K: Number individuals greater than $100K (F990-PC-PART-07-SECTION-A: F990-EZ-PART-04-PART-06-LINE-50-CONBINED)
+F9_07_COMP_KONTR_NUM_GT_100K: Total number of independent contractors who received 100K+ from org
+F9_08_REV_CONTR_TOT: Total contributions
+F9_08_REV_MISC_BIZCODE: Other Revenue Misc - Business code
+F9_08_REV_MISC_OTH_TOT: Miscellaneous Revenue - Total revenue
+F9_08_REV_MISC_TOT: Other Revenue Misc - Total revenue
+F9_08_REV_MISC_TOT_TOT: Other revenue - current year
+F9_08_REV_OTH_FUNDR_DIRECT_EXP: Direct expenses
+F9_08_REV_OTH_FUNDR_EVNT_1: IRS990 - 8a-1
+F9_08_REV_OTH_FUNDR_NET_TOT: Net Income From Fundraising Events - Total revenue
+F9_08_REV_OTH_GAMING: Gross income from gaming activities
+F9_08_REV_OTH_GAMING_DIRECT_EXP: Direct expenses
+F9_08_REV_OTH_GAMING_NET_TOT: Net Income From Gaming - Total revenue
+F9_08_REV_OTH_INVEST_BOND_TOT: Income From Invest Bond Proceeds - Total revenue
+F9_08_REV_OTH_INVEST_INCOME_TOT: Invest income
+F9_08_REV_OTH_INV_COST_GOODS: Less: cost of goods sold
+F9_08_REV_OTH_INV_GRO_SALE: gross sales of inventory
+F9_08_REV_OTH_INV_NET_TOT: Gross profit (or loss) from sales of inventory
+F9_08_REV_OTH_RENT_GRO_PERS: Gross Rents - Amount
+F9_08_REV_OTH_RENT_GRO_REAL: Gross Rents - Real amount
+F9_08_REV_OTH_RENT_INCOME_PERS: Rental Income Or Loss - Amount
+F9_08_REV_OTH_RENT_INCOME_REAL: Rental Income Or Loss - Real amount
+F9_08_REV_OTH_RENT_LESS_EXP_PERS: Less Rental Expenses - Amount
+F9_08_REV_OTH_RENT_LESS_EXP_REAL: Less Rental Expenses - Real amount
+F9_08_REV_OTH_RENT_NET_TOT: Net Rental Income Or Loss - Total revenue
+F9_08_REV_OTH_ROY_TOT: Royalties Revenue - Total revenue
+F9_08_REV_OTH_SALE_ASSET_OTH: Gross Amount Sales Assets - Other amount
+F9_08_REV_OTH_SALE_ASSET_SEC: Securities amount
+F9_08_REV_OTH_SALE_GAIN_NET_TOT: Gain or (loss) from sale of assets other than inventory
+F9_08_REV_OTH_SALE_GAIN_OTH: Gain Or Loss - Other amount
+F9_08_REV_OTH_SALE_GAIN_SEC: Securities amount
+F9_08_REV_OTH_SALE_LESS_COST_OTH: Less Cost Oth Basis Sales Expenses - Other amount
+F9_08_REV_OTH_SALE_LESS_COST_SEC: Securities amount
+F9_08_REV_PROG_BIZCODE: Program Service Revenue - Business code
+F9_08_REV_PROG_OTH_TOT: Total Oth Program Service Revenue - Total revenue
+F9_08_REV_PROG_TOT: Program Service Revenue - Total revenue
+F9_08_REV_PROG_TOT_TOT: Program service revenue total
+F9_08_REV_TOT_TOT: Total Revenue - Total revenue
+F9_09_EXP_AD_PROMO_TOT: Advertising and promotion - total expense
+F9_09_EXP_BEN_PAID_MEMB_TOT: Benefits Paid to or for Members - Total Expense
+F9_09_EXP_COMP_DSQ_PERS_TOT: Compensation not included above, or to disqualified persons - Total Expense
+F9_09_EXP_COMP_DTK_TOT: Compensation for Current Officers, Directors, Trustees and Key Employees - Total Expense
+F9_09_EXP_CONF_MEETING_TOT: Conferences, conventions, and meetings- total expense
+F9_09_EXP_DEPREC_TOT: Depreciation, depletion, and amortization
+F9_09_EXP_FEE_SVC_ACC_TOT: Fees for Services - Accounting - Total Expense
+F9_09_EXP_FEE_SVC_FUNDR_TOT: Fees for Professional Fundraising Services - Total Expense
+F9_09_EXP_FEE_SVC_INVEST_TOT: Investment Management Fees - Total Expense
+F9_09_EXP_FEE_SVC_LEGAL_TOT: Fees for Services - Legal - Total Expense
+F9_09_EXP_FEE_SVC_LOB_TOT: Fees for Services - Lobbying - Total Expense
+F9_09_EXP_FEE_SVC_MGMT_TOT: Fees for Services - Management - Total Expense
+F9_09_EXP_FEE_SVC_OTH_TOT: Fees for Services - Other - Total Expense
+F9_09_EXP_GRANT_FRGN_TOT: total Grants to Foreign Orgs and Governments - Total Expense
+F9_09_EXP_GRANT_US_INDIV_TOT: Grants To Domestic Individuals - Total
+F9_09_EXP_GRANT_US_ORG_TOT: Grants To Domestic Orgs - Total
+F9_09_EXP_INFO_TECH_TOT: Information Technology - Total
+F9_09_EXP_INSURANCE_TOT: Insurance - Total
+F9_09_EXP_INT_TOT: Interest - Total
+F9_09_EXP_OCCUPANCY_TOT: Occupancy; rent; utilities; and maintenance
+F9_09_EXP_OFFICE_TOT: Office Expenses - Total
+F9_09_EXP_OTH_EMPL_BEN_TOT: Other Employee Benefits - Total
+F9_09_EXP_OTH_OTH_TOT: Other expenses - total expense
+F9_09_EXP_OTH_SAL_WAGE_TOT: Other Salaries And Wages - Total
+F9_09_EXP_OTH_TOT: Other Expenses - Total
+F9_09_EXP_PAYROLL_TAX_TOT: Payroll Taxes - Total
+F9_09_EXP_PAY_AFFIL_TOT: Payments To Affiliates - Total
+F9_09_EXP_PENSION_CONTR_TOT: Pension Plan Contributions - Total
+F9_09_EXP_ROY_TOT: Royalties - Total
+F9_09_EXP_TOT_TOT: Total Functional Expenses - Total
+F9_09_EXP_TRAVEL_ENTMT_TOT: Travel Entrtnmnt Public Officials - Total
+F9_09_EXP_TRAVEL_TOT: Travel - Total
+F9_10_ASSET_ACC_NET_EOY: Net accounts receivable, end of year
+F9_10_ASSET_CASH_EOY: Cash, non-interest-bearing, end of year
+F9_10_ASSET_EXP_PREPAID_EOY: Ending of year
+F9_10_ASSET_INTANGIBLE_EOY: Ending of year
+F9_10_ASSET_INVEST_PROG_RLTD_EOY: Ending of year
+F9_10_ASSET_INVEST_SEC_EOY: Ending of year
+F9_10_ASSET_INVEST_SEC_OTH_EOY: Ending of year
+F9_10_ASSET_INV_SALE_EOY: Ending of year
+F9_10_ASSET_LAND_BLDG_DEPREC: Less: accumulated depreciation
+F9_10_ASSET_LOAN_DSQ_PERS_EOY: Ending of year
+F9_10_ASSET_LOAN_OFF_EOY: Ending of year
+F9_10_ASSET_NOTE_LOAN_NET_EOY: Ending of year
+F9_10_ASSET_OTH_EOY: Ending of year
+F9_10_ASSET_PLEDGE_NET_EOY: Ending of year
+F9_10_ASSET_SAVING_EOY: Ending of year
+F9_10_ASSET_TOT_EOY: Total assets, end of year
+F9_10_LIAB_ACC_PAYABLE_EOY: Accounts payable and accrued expenses, end of year
+F9_10_LIAB_ESCROW_ACC_EOY: Escrow or custodial account liability, end of year
+F9_10_LIAB_GRANT_PAYABLE_EOY: Ending of year
+F9_10_LIAB_LOAN_OFF_EOY: Ending of year
+F9_10_LIAB_MTG_NOTE_EOY: Ending of year
+F9_10_LIAB_NOTE_UNSEC_EOY: Ending of year
+F9_10_LIAB_OTH_EOY: Ending of year
+F9_10_LIAB_REV_DEFERRED_EOY: Deferred revenue, end of year
+F9_10_LIAB_TAX_EXEMPT_BOND_EOY: Ending of year
+F9_10_LIAB_TOT_EOY: Total liabilities, end of year
+F9_10_NAFB_CAP_STCK_EOY: Capital stock or trust principal, or current funds, end of year
+F9_10_NAFB_CAP_SURPLUS_EOY: Ending of year
+F9_10_NAFB_EARNING_RETAINED_EOY: Ending of year
+F9_10_NAFB_RESTRICT_PERM_EOY: Ending of year
+F9_10_NAFB_RESTRICT_TEMP_EOY: Ending of year
+F9_10_NAFB_TOT_EOY: Net assets or fund balances, end of year
+F9_10_NAFB_TOT_LIAB_NAFB_EOY: Ending of year
+F9_10_NAFB_UNRESTRICT_EOY: Ending of year
+GEO_ZIP5: 5-digit Zip Code
+SA_01_PCSTAT_ORG_AMT_SUPPORT: Amount of support
+SA_01_PCSTAT_SUPPORT_ORG_NUM: Number of supported organizations
+SA_02_PUB_CONTR_SBST_TOT: Amounts from substantial contributors total
+SA_02_PUB_GIFT_GRANT_CONTR_TOT: Gifts Grants Contri Rcvd170 Grp - Total
+SA_02_PUB_SUPPORT_TOT: Public Support Total
+SA_02_PUB_TAXREV_LEVIED_TOT: Tax Rev Levied For Org Benefit170 - Total
+SA_02_PUB_TOT_L123_TOT: Total - Total - Total
+SA_02_PUB_VALUE_SVC_GOVT_TOT: Govt Furn Srvc Fclts Vl170 Grp - Total
+SA_02_TOT_AMT_L4_CY_TOT: Amounts From Line4 - Total
+SA_02_TOT_GRO_RCPT_RLTD_ACTS: Gross receipts from admissions; merchandise sold or services performed; or furnishing of facilities in any activity that is related to the organization's tax-exempt purpose
+SA_02_TOT_INCOME_GRO_TOT: Gross Investment Income - Total
+SA_02_TOT_INCOME_NET_UBIZ_TOT: Net UBI - Total
+SA_02_TOT_INCOME_OTH_TOT: Other Income - Total
+SA_02_TOT_SUPPORT_TOT: Form990 Schedule APart II - Total support
+SA_03_PUB_ADD_L7AB_TOT: Subst And Dsqlfy Prsns Tot Grp - Total
+SA_03_PUB_AMT_CONTR_SBST_TOT: Amts From Subst Contributors - Total
+SA_03_PUB_AMT_PERS_DSQ_TOT: Amounts Rcvd Dsqlfy Person Grp - Total
+SA_03_PUB_GIFT_GRANT_CONTR_TOT: Gifts Grants Contrib Received - Total
+SA_03_PUB_GRO_RCPT_ADM_TOT: Gross Receipts Admissions Grp - Total
+SA_03_PUB_GRO_RCPT_NONUBIZ_TOT: Gross Receipts From Non UBI - Total
+SA_03_PUB_SUPPORT_TOT: Public support total
+SA_03_PUB_TAXREV_LEVIED_TOT: Tax Rev Levied For Org Benefit509 - Total
+SA_03_PUB_TOT_L1_5_TOT: Total - Total - Total
+SA_03_PUB_VALUE_SVC_GOVT_TOT: Govt Furn Srvc Fclts Vl509 Grp - Total
+SA_03_TOT_ADD_L10AB_TOT: Investment Income And UBTI - Total
+SA_03_TOT_AMT_L6_TOT: Amts From Line6 - Total
+SA_03_TOT_INCOME_GRO_TOT: Gross Investment Income - Total
+SA_03_TOT_INCOME_NET_UBIZ_TOT: Net Income From Other UBI - Total
+SA_03_TOT_INCOME_OTH_TOT: Other Income - Total
+SA_03_TOT_INCOME_UBIZ_TOT: Post1975 UBTI - Total
+SA_03_TOT_SUPPORT_TOT: Total Support Calendar Year Grp - Total
+TAX_YEAR: Tax Year

@@ -1,6 +1,4 @@
-"""
-Snippet from 
-"""
+
 
 import pandas as pd
 import numpy as np
@@ -61,3 +59,5 @@ def categorize_aqi(dataset_path="avg_aqi_revenue_data.csv"):
     plt.show()
 
 categorize_aqi()
+
+
