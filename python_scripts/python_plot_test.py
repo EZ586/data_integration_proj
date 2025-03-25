@@ -6,13 +6,13 @@ import os
 def plot_scatter(ax, df, tested_feature, description):
     # Extract relevant columns
     x = df[tested_feature]
-    y = df['Percent_Unhealthy_Days']
+    y = df['Average_AQI']
     
     # Create scatter plot on the provided axes
     ax.scatter(x, y, alpha=0.6, edgecolors='k')
     ax.set_xlabel(tested_feature)
-    ax.set_ylabel('Percent Unhealthy Days')
-    ax.set_title(f'Scatter Plot of {tested_feature} vs. Unhealthy Days')
+    ax.set_ylabel('Average_AQI Days')
+    ax.set_title(f'Scatter Plot of {tested_feature} vs. Average_AQI')
     ax.set_xscale('log')  # Log scale for better visualization if values are large
     ax.grid(True, linestyle='--', alpha=0.6)
     
@@ -29,8 +29,8 @@ descriptions_dict = descriptions_df.set_index('variable_name')['variable_descrip
 # Get all columns starting from the 3rd column
 columns_from_third = df.iloc[:, 2:].columns.to_list()
 
-# Calculate correlation with 'Percent_Unhealthy_Days'
-correlations = df[columns_from_third].corrwith(df['Percent_Unhealthy_Days']).sort_values(ascending=False)
+# Calculate correlation with 'Average_AQI'
+correlations = df[columns_from_third].corrwith(df['Average_AQI']).sort_values(ascending=False)
 
 # Print the columns sorted by correlation
 print(correlations)

@@ -81,6 +81,28 @@ def matched_cities():
     # Display results
     # print(matching_cities_states.head())
     return matching_cities_states[['F9_00_ORG_ADDR_CITY', 'F9_00_ORG_ADDR_STATE', 'Percent_Unhealthy_Days']]
+def matched_aqi():
+    # Load first dataset (charities data)
+    charities_df = df.copy()
+    aqi_df = pd.read_csv('processed_datasets/average_aqi_data.csv')
+    # Load second dataset (unhealthy days data)
+    unhealthy_days_df = aqi_df
+
+   # Extract city and state from charities dataset
+    charities_cities_states = charities_df[['F9_00_ORG_ADDR_CITY', 'F9_00_ORG_ADDR_STATE']].drop_duplicates()
+
+    # Extract city and state from unhealthy days dataset
+    unhealthy_days_df['State'] = unhealthy_days_df['CBSA'].str.split(',').str[-1].str.strip()  # Create a separate State column
+    unhealthy_cities_states = unhealthy_days_df[['CITY', 'State', 'Average_AQI']].drop_duplicates()
+
+    # Merge on both city and state (inner join keeps only matching city and state pairs)
+    matching_cities_states = pd.merge(charities_cities_states, unhealthy_cities_states, 
+                                    left_on=['F9_00_ORG_ADDR_CITY', 'F9_00_ORG_ADDR_STATE'], 
+                                    right_on=['CITY', 'State'], how='inner')
+
+    # Display results
+    # print(matching_cities_states.head())
+    return matching_cities_states[['F9_00_ORG_ADDR_CITY', 'F9_00_ORG_ADDR_STATE', 'Average_AQI']]
 
 def analyze_headers():
     # Load dataset
@@ -115,7 +137,7 @@ def analyze_headers():
     city_analysis = NCSS_df.groupby(['F9_00_ORG_ADDR_CITY', 'F9_00_ORG_ADDR_STATE'])[city_nonzero_col].sum().reset_index()
 
     # add unhealthy days to city_analysis
-    matched_cities_data = matched_cities()
+    matched_cities_data = matched_aqi()
     city_analysis = pd.merge(city_analysis, matched_cities_data, 
                                         left_on=['F9_00_ORG_ADDR_CITY', 'F9_00_ORG_ADDR_STATE'], 
                                         right_on=['F9_00_ORG_ADDR_CITY', 'F9_00_ORG_ADDR_STATE'], 
